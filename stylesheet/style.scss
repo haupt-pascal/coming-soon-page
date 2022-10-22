@@ -30,17 +30,17 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    
     img {
         height: 50%;
     }
 
     .page-subtitle {
-        font-size: 22px;
+        font-size: var(--font-subtitle);
     }
 
     .page-title {
-        font-size: 72px;
+        font-size: var(--font-title); 
         color: $primary;
         margin-top: -8px;
     }
@@ -50,7 +50,7 @@ a {
         flex-direction: column;
         margin-top: 26px;
         .page-text {
-            font-size: 22px;
+            font-size: var(--font-text);
             opacity: .6;
             margin-top: 6px;
         }   
@@ -72,7 +72,7 @@ a {
                     margin-bottom: 0;
                 }
                 i {
-                    font-size: 22px;
+                    font-size: var(--font-icon);
                 }
 
                 &:hover {

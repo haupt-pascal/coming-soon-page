@@ -3,3 +3,47 @@ $white: #fff;
 $black: #000;
 
 $primary: #3C4AE4;
+
+
+:root {
+    --font-title: 72px;
+    --font-subtitle: 22px;
+    --font-text: 22px;
+    --font-icon: 22px;
+}
+
+@media only screen and (max-width: 1024px) {
+    :root {
+        --font-title: 56px;
+        --font-subtitle: 18px;
+        --font-text: 18px;
+        --font-icon: 18px;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    :root {
+        --font-title: 40px;
+        --font-subtitle: 16px;
+        --font-text: 16px;
+        --font-icon: 16px;
+    }
+}
+
+@media only screen and (max-width: 596px) {
+    :root {
+        --font-title: 30px;
+        --font-subtitle: 14px;
+        --font-text: 14px;
+        --font-icon: 14px;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    :root {
+        --font-title: 22px;
+        --font-subtitle: 10px;
+        --font-text: 10px;
+        --font-icon: 10px;
+    }
+}
