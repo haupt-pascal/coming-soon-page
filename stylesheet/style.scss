@@ -35,8 +35,21 @@ a {
         height: 50%;
     }
 
+    @media only screen and (max-width: 596px) {
+        img {
+            height: 30%;
+            margin: 64px 0;
+        }
+    }
+
     .page-subtitle {
         font-size: var(--font-subtitle);
+    }
+
+    @media only screen and (max-width: 596px) {
+        .page-subtitle {
+            margin-bottom: 16px;
+        }
     }
 
     .page-title {
@@ -61,11 +74,12 @@ a {
         justify-content: flex-end;
         align-items: flex-end;
         margin-top: auto;
+        margin-right: 16px;
         .footer-container {
             display: flex;
             flex-direction: column;
             .link {
-                margin: 8px 0;
+                margin: 10px 0;
                 color: $black;
                 opacity: .6;
                 &:last-child {
